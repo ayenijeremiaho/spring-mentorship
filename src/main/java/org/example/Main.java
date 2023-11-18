@@ -20,6 +20,24 @@ public class Main {
         //Spring used D.I(Dependency Injection) to achieve IOC
 
         //AnnotationConfig ApplicationContext
+        //Stereotype Annotations that spring looks for
+        //MVC & MVVC
+
+        /*
+         1. @Configuration -> A class used to create spring bean manually,
+         the major annotation here is @Bean
+
+         2. @Service -> An annotation used to indicate that the class is for business logic,
+         a business logic is an algorithm that has a single responsibility
+
+         3. @Repository -> An annotation used to indicate that the class is for DAO.
+         a DAO is a Data Access Object
+
+         4. @Component -> An annotation used to indicate that this is a stereotyped class
+
+         5. @Controller -> An annotation used to indicate that this is a web/user interfacing class
+        **/
+
         var context = new AnnotationConfigApplicationContext("org.example");
 
         var apple = context.getBean(Apple.class);

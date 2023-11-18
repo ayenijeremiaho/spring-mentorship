@@ -1,7 +1,9 @@
 package org.example.pojo;
 
 //POJO - PLAIN OLD JAVA OBJECT
-public class Apple {
+public class Apple extends Fruit {
+
+    private Seed seed;
 
     private String name;
 
