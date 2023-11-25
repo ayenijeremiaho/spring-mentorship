@@ -14,4 +14,12 @@ public class Apple extends Fruit {
     public String getName() {
         return name;
     }
+
+    public Seed getSeed() {
+        return seed;
+    }
+
+    public void setSeed(Seed seed) {
+        this.seed = seed;
+    }
 }

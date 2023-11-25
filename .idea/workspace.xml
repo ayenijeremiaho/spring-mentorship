@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1be6639-7695-46b0-bf8f-131c5f18f69c" name="Changes" comment="" />
+    <list default="true" id="b1be6639-7695-46b0-bf8f-131c5f18f69c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/config/ProjectConfig2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/config/ProjectConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/config/ProjectConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pojo/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pojo/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pojo/Seed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pojo/Seed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/AppleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/AppleService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,10 +45,18 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "spring.configuration.checksum": "fd707d0f9ccb8c8ef6bd377afa1c423f",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.config" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
@@ -83,10 +99,37 @@
       <workItem from="1697635030225" duration="598000" />
       <workItem from="1697709326508" duration="816000" />
       <workItem from="1699085345434" duration="5734000" />
+      <workItem from="1700295160946" duration="5525000" />
+      <workItem from="1700468213025" duration="287000" />
+      <workItem from="1700582029115" duration="668000" />
+      <workItem from="1700849795499" duration="5450000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/service/AppleService.java</url>
+          <line>11</line>
+          <properties field="apple" class="org.example.service.AppleService" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

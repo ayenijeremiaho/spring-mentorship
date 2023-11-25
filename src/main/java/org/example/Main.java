@@ -1,12 +1,14 @@
 package org.example;
 
+import org.example.config.ProjectConfig;
+import org.example.config.ProjectConfig2;
 import org.example.pojo.Apple;
-import org.example.service.AppleService;
+import org.example.repository.AppleRepository;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+//        System.out.println("Hello world!");
 
         /**
          * Syntax fpr creating string
@@ -14,7 +16,7 @@ public class Main {
          */
 
 
-        String name = "aaa667776#$%^**@@\"\uD83D\uDE0B";
+//        String name = "aaa667776#$%^**@@\"\uD83D\uDE0B";
 
         //Spring is built using the IOC(Inversion of Control) framework
         //Spring used D.I(Dependency Injection) to achieve IOC
@@ -40,17 +42,27 @@ public class Main {
 
         var context = new AnnotationConfigApplicationContext("org.example");
 
-        var apple = context.getBean(Apple.class);
-//        var apple1 = context.getBean("getApple1", Apple.class);
-//        var apple2 = context.getBean("getApple2", Apple.class);
-
+//        var projectConfig = context.getBean(ProjectConfig.class);
+//
+//        Apple apple1  = projectConfig.getApple1();
 //        System.out.println(apple1.getName());
+//        System.out.println(apple1.getSeed().isEdible());
+//
+//        Apple apple2  = projectConfig.getApple2();
 //        System.out.println(apple2.getName());
-        System.out.println(apple.getName());
+//        System.out.println(apple2.getSeed().isEdible());
 
-        var appleService = context.getBean(AppleService.class);
+//        var applePrimary = context.getBean(Apple.class);
+//        System.out.println(applePrimary.getName());
+//        System.out.println(applePrimary.getSeed().isEdible());
 
-        appleService.add("Apple 1");
-        appleService.delete("Apple 1");
+//        var apple3 = context.getBean("apple3", Apple.class);
+//        System.out.println(apple3.getName());
+//        System.out.println(apple3.getSeed().isEdible());
+
+//        var projectConfig2 = context.getBean(ProjectConfig2.class);
+//        var appleSecondary = projectConfig2.getApple3();
+//        System.out.println(appleSecondary.getName());
+//        System.out.println(appleSecondary.getSeed().isEdible());
     }
 }

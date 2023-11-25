@@ -10,21 +10,12 @@ import org.springframework.context.annotation.Scope;
 
 @Scope(scopeName = ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 @Configuration
-public class ProjectConfig {
+public class ProjectConfig2 {
 
     @Bean
-    public Apple apple1() {
+    public Apple apple3() {
         var apple = new Apple();
-        apple.setName("Apple 1");
-        apple.setSeed(new Seed(false));
-        return apple;
-    }
-
-    @Bean
-    @Primary
-    public Apple apple2() {
-        var apple = new Apple();
-        apple.setName("Apple 2");
+        apple.setName("Apple 3");
         apple.setSeed(new Seed(false));
         return apple;
     }
